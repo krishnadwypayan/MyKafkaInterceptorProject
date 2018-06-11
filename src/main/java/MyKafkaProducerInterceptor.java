@@ -31,9 +31,6 @@ public class MyKafkaProducerInterceptor extends AbstractKafkaStreamsInterceptor 
                 break;
         }
 
-        for(int j = 0; j < 10; j++)
-            System.out.println(j);
-
         return processorName.substring(0, i);
     }
 
